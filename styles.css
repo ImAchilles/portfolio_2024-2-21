@@ -35,6 +35,10 @@
     align-items: center;
   }
 
+  .yt-aspect-ratio {
+    aspect-ratio: 16/9;  
+  }
+
   .container-youtube-videos {
     display: flex;
     flex-wrap: wrap;
@@ -43,7 +47,9 @@
   }
 
   .container-youtube-videos > iframe {
-    flex: inherit;
+    max-width: 420px;
+    min-width: 370px;
+    flex: 1 1 auto;
     border-radius: 7px;
     box-shadow: 0px 0px 17px black;
   }
