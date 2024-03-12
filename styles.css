@@ -29,7 +29,7 @@
   just added the new section and divs to youtube videos section, with some
   videos, and some classes */
 
-  .section-youtube-videos {
+  .section-youtube-videos, .section-comparison-videos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,14 +39,21 @@
     aspect-ratio: 16/9;  
   }
 
-  .container-youtube-videos {
+  .container-youtube-videos, .container-comparison-videos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 17px;
   }
 
-  .container-youtube-videos > iframe {
+  .original-edit-div, .my-edit-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+  }
+  
+  .original-edit, .my-edit, .container-youtube-videos > iframe {
     max-width: 420px;
     min-width: 370px;
     flex: 1 1 auto;
