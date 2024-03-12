@@ -12,11 +12,35 @@
     color: #dadada;
   }
 
-  nav {
+  /* Navbar section start*/
+
+  .navbar a {
+    color: #FF7700;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .navbar a:hover {
+    color: rgba(255,128,0,70%);
+    text-shadow: 0px 0px 17px #000;
+  }
+
+  .navbar ul {
+    display: flex;
+    gap: 7px;
+  }
+
+  .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
+  ul {
+    list-style-type: none;
+  }
+
+  /* Navbar section end*/
 
   section{
     display: flex;
@@ -52,7 +76,7 @@
     align-items: center;
     gap: 7px;
   }
-  
+
   .original-edit, .my-edit, .container-youtube-videos > iframe {
     max-width: 420px;
     min-width: 370px;
