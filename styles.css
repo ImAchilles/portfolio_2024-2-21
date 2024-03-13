@@ -2,27 +2,39 @@
     box-sizing: border-box;
   }
 
-  /* * {
+  * {
     margin: 0;
     padding: 0;
-  } */
+  }
+
+  * > h2 {
+    margin-bottom: 17px;
+  }
 
   body {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    font-size: 16px;
     background-color: #171717;
     color: #dadada;
   }
 
   /* Navbar section start*/
 
+  .navbar {
+    padding: 17px;
+    margin: 7px 17px;
+  }
+
   .navbar a {
     color: #FF7700;
     text-decoration: none;
-    font-weight: bold;
+    
   }
 
   .navbar a:hover {
     color: rgba(255,128,0,70%);
     text-shadow: 0px 0px 17px #000;
+    font-weight: bold;
   }
 
   .navbar ul {
@@ -45,6 +57,8 @@
   section{
     display: flex;
     justify-content: center;
+    padding: 7px;
+    margin: 17px;
   }
 
 
